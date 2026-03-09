@@ -1,0 +1,17 @@
+.parent-div{
+    border: 10px solid red;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+
+    flex-wrap: wrap-reverse;
+}
+
+.child-div{
+    font-size: 20px;
+    height: 100px;
+    width: 100px;
+}
